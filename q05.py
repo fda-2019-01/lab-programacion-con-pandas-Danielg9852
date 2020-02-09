@@ -3,3 +3,8 @@
 ## de la tabla tbl0
 ## 
 
+import pandas as pd
+cs=pd.read_csv('tbl0.tsv', delimiter='\t', encoding='utf-8')
+
+a=cs.groupby(['_c1']).sum()
+print(a['_c2'])

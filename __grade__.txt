@@ -1,4 +1,4 @@
->>> import os; status = os.system('python3 q01.py > out'); print(open('out', 'rt').read())
+>>> import os; status = os.system('python q01.py > out'); print(open('out', 'rt').read())
 _c1
 A     8
 B     7
@@ -8,7 +8,7 @@ E    14
 Name: _c0, dtype: int64
 <BLANKLINE>
 
->>> import os; status = os.system('python3 q02.py > out'); print(open('out', 'rt').read())
+>>> import os; status = os.system('python q02.py > out'); print(open('out', 'rt').read())
 _c1
 A    4.625000
 B    5.142857
@@ -18,7 +18,7 @@ E    4.785714
 Name: _c2, dtype: float64
 <BLANKLINE>
 
->>> import os; status = os.system('python3 q03.py > out'); print(open('out', 'rt').read())
+>>> import os; status = os.system('python q03.py > out'); print(open('out', 'rt').read())
 _c1
 A    9
 B    9
@@ -28,11 +28,11 @@ E    9
 Name: _c2, dtype: int64
 <BLANKLINE>
 
->>> import os; status = os.system('python3 q04.py > out'); print(open('out', 'rt').read())
+>>> import os; status = os.system('python q04.py > out'); print(open('out', 'rt').read())
 ['A', 'B', 'C', 'D', 'E', 'F', 'G']
 <BLANKLINE>
 
->>> import os; status = os.system('python3 q05.py > out'); print(open('out', 'rt').read())
+>>> import os; status = os.system('python q05.py > out'); print(open('out', 'rt').read())
 _c1
 A    37
 B    36
@@ -42,7 +42,7 @@ E    67
 Name: _c2, dtype: int64
 <BLANKLINE>
 
->>> import os; status = os.system('python3 q06.py > out'); print(open('out', 'rt').read())
+>>> import os; status = os.system('python q06.py > out'); print(open('out', 'rt').read())
 _c1
 A    37
 B    36
@@ -52,7 +52,7 @@ E    67
 Name: _c2, dtype: int64
 <BLANKLINE>
 
->>> import os; status = os.system('python3 q07.py > out'); print(open('out', 'rt').read())
+>>> import os; status = os.system('python q07.py > out'); print(open('out', 'rt').read())
     _c0 _c1  _c2         _c3  suma
 0     0   E    1  1999-02-28     1
 1     1   A    2  1999-10-28     3
@@ -97,7 +97,7 @@ Name: _c2, dtype: int64
 <BLANKLINE>
 
 
->>> import os; status = os.system('python3 q08.py > out'); print(open('out', 'rt').read())
+>>> import os; status = os.system('python q08.py > out'); print(open('out', 'rt').read())
     _c0 _c1  _c2         _c3   ano
 0     0   E    1  1999-02-28  1999
 1     1   A    2  1999-10-28  1999
@@ -141,7 +141,7 @@ Name: _c2, dtype: int64
 39   39   E    5  1998-01-26  1998
 <BLANKLINE>
 
->>> import os; status = os.system('python3 q09.py > out'); print(open('out', 'rt').read())
+>>> import os; status = os.system('python q09.py > out'); print(open('out', 'rt').read())
   _c0                        lista
 0   A              1:1:2:3:6:7:8:9
 1   B                1:3:4:5:6:8:9
@@ -150,7 +150,7 @@ Name: _c2, dtype: int64
 4   E  1:1:2:3:3:4:5:5:5:6:7:8:8:9
 <BLANKLINE>
 
->>> import os; status = os.system('python3 q10.py > out'); print(open('out', 'rt').read())
+>>> import os; status = os.system('python q10.py > out'); print(open('out', 'rt').read())
     _c0    lista
 0     0    b,f,g
 1     1    a,c,f
@@ -194,7 +194,7 @@ Name: _c2, dtype: int64
 39   39    a,d,f
 <BLANKLINE>
 
->>> import os; status = os.system('python3 q11.py > out'); print(open('out', 'rt').read())
+>>> import os; status = os.system('python q11.py > out'); print(open('out', 'rt').read())
     _c0                                lista
 0     0        bbb:0,ddd:9,ggg:8,hhh:2,jjj:3
 1     1              aaa:3,ccc:2,ddd:0,hhh:9
@@ -238,7 +238,7 @@ Name: _c2, dtype: int64
 39   39                    ggg:3,hhh:8,jjj:5
 <BLANKLINE>
 
->>> import os; status = os.system('python3 q12.py > out'); print(open('out', 'rt').read())
+>>> import os; status = os.system('python q12.py > out'); print(open('out', 'rt').read())
 _c1
 A    146
 B    134
